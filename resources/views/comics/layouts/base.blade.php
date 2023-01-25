@@ -12,6 +12,9 @@
 <body>
     <h1 class="text-center p-2">@yield('title')</h1>
     <main>
+        <div class="container">
+            @yield('delete-alert')
+        </div>
         <div class="container d-flex flex-wrap justify-content-around">
             @yield('content')
         </div>

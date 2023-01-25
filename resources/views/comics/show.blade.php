@@ -17,7 +17,7 @@
                 </div>
                 <div class="d-flex justify-content-center align-items-center">
                     <h5 class="m-3">{{ $comic->price }} $</h5>
-                    <a href="#" class="btn btn-primary">BUY</a>
+                    <a href="#" class="btn btn-outline-primary">BUY</a>
                 </div>
             </div>
         </div>
